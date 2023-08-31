@@ -26,4 +26,5 @@ This is in the form of grayscale images
 - **Logistic Regression model**: accuracy-38.35%
 - **SVM**: accuracy- 25.69%
 
-<img src="Images/myVGGCM.png" alt="Results" width="500" height="300">
+![Results](Images/myVGGCM.png "Results")
+
