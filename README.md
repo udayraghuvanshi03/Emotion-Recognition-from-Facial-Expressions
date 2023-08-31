@@ -3,9 +3,9 @@ This repository contains the code and research paper for the project on Emotion 
 
 ## Dataset
 1. https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data
-This is in form of csv
+This is in the form of csv
 2. https://www.kaggle.com/datasets/msambare/fer2013
-This is in form of grayscale images
+This is in the form of grayscale images
 
 ## Key features
 - **Multi-Modal Approach**: Integrates SVM, Logistic Regression, and CNN for robust emotion recognition.
@@ -20,3 +20,8 @@ This is in form of grayscale images
 - For SVM, bag-of-visual-words and histograms of descriptors were utilized as features. Also, hyper-parameter tuning was performed to obtain the best-performing model using rbf kernel.
 -  Logistic Regression leverages pixel normalization. Here, hyperparameter tuning was performed using GridSearchCV.
 -   In CNN, a pre-trained VGG16 model was experimented and a new hybrid model was proposed. The hybrid CNN model achieved the highest accuracy of 66.9%, surpassing SVM and Logistic Regression.
+
+## Results
+- **CNN Model**: Accuracy-66.9%
+- **Logistic Regression model**: accuracy-38.35%
+- **SVM**: accuracy- 25.69%
