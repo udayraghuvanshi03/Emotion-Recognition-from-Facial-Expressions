@@ -28,3 +28,5 @@ This is in the form of grayscale images
 
 ![Results](Images/myVGGCM.png "Results for final proposed model")
 
+## Usage Instructions
+1. Clone this repository using: 
