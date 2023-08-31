@@ -29,4 +29,5 @@ This is in the form of grayscale images
 ![Results](Images/myVGGCM.png "Results for final proposed model")
 
 ## Usage Instructions
-1. Clone this repository using: 
+1. Clone this repository using: git clone 'git@github.com:udayraghuvanshi03/Emotion-Recognition-from-Facial-Expressions.git'
+2. 
