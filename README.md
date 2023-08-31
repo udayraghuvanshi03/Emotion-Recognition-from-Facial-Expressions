@@ -30,4 +30,16 @@ This is in the form of grayscale images
 
 ## Usage Instructions
 1. Clone this repository using: git clone 'git@github.com:udayraghuvanshi03/Emotion-Recognition-from-Facial-Expressions.git'
-2. 
+2. **emotion_recognition_svm.py, extract_images_from_csv.py**
+- After downloading the above dataset, store all the training images in one folder (All_train_images) and all test images in another folder (All_test_images). If using just csv files, extract_images_from_csv.py can be used to extract images from csv and store in respective folders.
+- It forms arrays of training and test label from csv using pandas.
+- Run the program
+3. **emotion_recognition_LR.py**
+- After downloading the 2nd dataset(grayscale images) extract the files
+- Specify the path to test and train data in the final_LR.py file at line 40-41.
+- Run the program
+4. **VGG1_CNNfer2013.ipynb, VGG2_CNNfer2013_pretrain.ipynb**
+- VGG1_CNNfer2013.ipynb is the Jupyter notebook implementation of proposed CNN network and VGG2_CNNfer2013_pretrain.ipynb is the Jupyter notebook implementation of pre-trained VGG16 network
+- After downloading the dataset, provide the absolute path of train.csv and test.csv files in the code
+- Run the program
+
